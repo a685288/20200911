@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>匯入病歷</title>
+  </head>
+  <body>
+    <div class="background" id="background">
+      <div class="row-1">
+        <div>
+          <p>患者編號(cussn)</p>
+          <h3>18973</h3>
+        </div>
+        <div>
+          <p>患者病歷號碼(cussn)</p>
+          <h3>611201-1</h3>
+        </div>
+        <div>
+          <p>姓名</p>
+          <h3>林OO</h3>
+        </div>
+        <div>
+          <p>身分證字號</p>
+          <h3>L220111631</h3>
+        </div>
+      </div>
+      <div class="row-2">
+        <p>
+          The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax
+          quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
+          quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox ny mphs
+          grab quickjived waltz. Brick quiz whan gs jumpy veldt fox. Bright vixe
+          ns jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick
+          zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz.
+          How quickly daft jumping zebras vex. Two driven jocks help fax my big
+          quiz. Quick, Ba乙 get my woven flax jodhpurs! "Now fax quiz Jackmy
+          brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by
+          job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk.
+          A very bad quack might jinx zippy fowls. Few quips galvanized the mock
+          jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox,
+          zebra, and my wolves quack! Blowzy red vixens fight for a quick jump.
+          Joaquin Phoenix was gazed by MTV for luck. A wizard's job is to vex
+          chumps quickly in fog. Watch "Jeopardy!", Alex Trebek"s fun TV quiz
+          game.<br />
+          The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax
+          quiz prog. Junk MTV quiz graced by fox whelps. Bawds jogz flick
+          quartz, vex nymphs. Waltz, bad nymphz for quick jigs vex! Fox ny mphs
+          grab quickjived waltz. Brick quiz whan gs jumpy veldt fox. Bright vixe
+          ns jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick
+          zephyrs blowz vexing daft Jim. Sex-charged fop blew myjunk TV quiz.
+          How quickly daft jumping zebras vex. Two driven jocks help fax my big
+          quiz. Quick, Ba get my woven flax jodhpurs! "Now fax quiz Jackmy brave
+          ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,
+          kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A
+          very bad quack might jinx zippy fowls. Few quips galvanized the mock
+          jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox,
+          zebra, and my wolves quack! Blowzy red vixens fight for a quick jump.
+          Joaquin Phoenix was gazed by MTV for luck. A wizard's job is to vex
+          chumps quickly in fog. Watch "Jeopardy!", Alex Trebek"s fun TV quiz
+          game.<br />
+          The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax
+          quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
+          quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox ny mphs
+          grab quickjived waltz. Brick quiz whan gs jumpy veldt fox. Bright vixe
+          ns jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick
+          zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz.
+          How quickly daft jumping zebras vex. Two driven jocks help fax my big
+          quiz. Quick, Ba get my woven flax jodhpurs! "Now fax quiz Jackmy brave
+          ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,
+          kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A
+          very bad quack might jinx zippy fowls. Few quips
+        </p>
+      </div>
+    </div>
+    <input type="button" value="匯入" class="button" onclick="send()" />
+    <div class="mask" id="mask"></div>
+    <div class="windows" id="windows">
+      <div>
+        <h2>匯入成功！</h2>
+        <input type="button" value="確定" class="button" onclick="check()" />
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    function send() {
+      document.all.mask.style.display = 'block';
+      document.all.windows.style.display = 'block';
+    }
+    function check() {
+      document.getElementById('mask').style.display = 'none';
+      document.getElementById('windows').style.display = 'none';
+    }
+  </script>
+</html>
