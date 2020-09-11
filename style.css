@@ -1,76 +1,82 @@
-*{
-  margin: 0px;
+* {
+  margin: 0px auto;
   padding: 0px;
   text-align: center;
 }
-.background{
-  background-color: #F6F6F6;
+.background {
+  background-color: #f6f6f6;
   height: 650px;
+  width: 1536px;
 }
-.row-1{
+.row-1 {
   display: flex;
 }
-.row-1 div{
+.row-1 div {
   background-color: #ffffff;
   flex: 1;
   margin: 10px;
   padding: 10px;
 }
-.row-1 div p{
+.row-1 div p {
   color: #8b8b8b;
 }
-.row-1 div h3{
+.row-1 div h3 {
   line-height: 50px;
-  color: #31859E;
+  color: #31859e;
   font-weight: 900;
 }
-.row-2{
+.row-2 {
   background-color: #ffffff;
   margin: 10px;
   padding: 20px;
   height: 75%;
 }
-.row-2 p{
+.row-2 p {
   color: #8b8b8b;
   text-align: left;
 }
-.button{
-  background-color: #42A3C1;
+.button {
+  background-color: #42a3c1;
   margin: 10px;
   padding: 5px;
   color: #ffffff;
   width: 150px;
   border-radius: 3px;
-  background-image: -webkit-linear-gradient(top, #46ABC9, #358DA7);
+  background-image: -webkit-linear-gradient(top, #46abc9, #358da7);
   border: 0px;
 }
-.mask{
+.mask {
   background-color: #000000;
   opacity: 0.5;
   display: none;
   z-index: 2;
-  position:absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 1536px;
   height: 698px;
 }
-.windows{
+.windows {
   width: 300px;
   height: 200px;
-  background-color: #F6F6F6;
+  background-color: #ffffff;
   margin: 0px auto;
   display: none;
   z-index: 3;
-  position:absolute;
+  position: absolute;
   top: 200px;
   left: 600px;
   border-radius: 3px;
-
 }
-.windows div{
+.windows div {
   padding: 50px;
 }
-.windows input{
+.windows input {
   margin: 30px 0px;
+}
+.checkimg {
+  width: 60px;
+  position: absolute;
+  left: 120px;
+  top: -20px;
 }
